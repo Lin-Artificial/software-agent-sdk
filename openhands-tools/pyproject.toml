@@ -13,6 +13,8 @@ dependencies = [
     "libtmux>=0.53.0",
     "pydantic>=2.11.7",
     "browser-use>=0.8.0",
+    # Imported by browser_use but only declared transitively via mcp 1.x.
+    "pydantic-settings>=2.5.2",
     "func-timeout>=4.3.5",
     "tom-swe>=1.0.3",
 ]
